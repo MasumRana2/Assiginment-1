@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.top-banner{
+    
+    background-repeat: no-repeat;
+}
+.half-width{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+h1{
+    font-size: 50px;
+}
+h1 span{
+    color: orange;
+}
+.half-width img{
+    width: 100%;
+}
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+p{
+    color: dimgray;
+}
+.girl-2{
+    background-image: url("images/image6.png");
+    background-repeat: no-repeat;
+    background-size: 1900px;
+    background-position: left;
+    
+}
+h2{
+    font-size: 40px;
+}
+#recipe{
+   
+    font-size: 50px;
+    padding-left: 200px;
+}
+#reci{
+    text-align: center;
+}
+
+.boxshadow{
+    width: 80%;
+    padding: 80px;
+    margin: 100px auto;
+    background: rgb(255, 255, 255);
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.apex{
+    width: 333px;
+    height: 500px;
+    background: rgb(255, 255, 255);
+margin: 0px 10px;
+transition: 1s;
+
+
+
+
+}
+.apex:hover{
+    transform: scale(1.1);
+    background: #ffffff;
+    z-index: 2;
+    border: 15px solid rgb(0, 0, 0);
+padding: 20px;
+margin: 20px;
+    
+}
+.biggerever{
+  background-size: cover;
+  width: 333px;
+}
+.biggercenter h3{
+    text-align-last: justify;
+}
+.food{
+    color: rgb(255, 94, 0);
+}
+footer {
+    text-align: center;
+    font color: red;
+    padding: 15px;
+    
+    background-color: DarkSalmon;
+color: white;
+}
